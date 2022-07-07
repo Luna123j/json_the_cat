@@ -4,7 +4,7 @@
   "description": "",
   "main": "breedFetcher.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "eslint": "^8.19.0"
+    "chai": "^4.3.6",
+    "eslint": "^8.19.0",
+    "mocha": "^10.0.0"
   }
 }
